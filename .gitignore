@@ -1,0 +1,12 @@
+_run_source.py
+prank.py
+.license
+.env
+data/
+__pycache__/
+*.pyc
+*.png
+*.html
+debug_*
+accounts.json
+apikeys.txt

@@ -1,0 +1,6 @@
+requests>=2.34
+playwright>=1.62
+rich>=13.0
+platformdirs>=4.0
+urllib3>=2.7
+PySocks>=1.7

@@ -1,0 +1,53 @@
+# ============================================================
+# BuddyCN Configuration
+# ============================================================
+
+[5sim]
+# 5SIM JWT Bearer API key (from 5sim.net)
+jwt = "YOUR_5SIM_JWT_HERE"
+
+[otpcepat]
+# OTPcepat API key (optional, alternative to 5sim)
+api_key = ""
+
+# ============================================================
+# SOCKS5/HTTP Proxies (optional)
+# ============================================================
+
+[[proxies]]
+label = "LOCAL"
+type = "http"
+host = "127.0.0.1"
+port = 60000
+username = ""
+password = ""
+
+# ============================================================
+# Bot Settings
+# ============================================================
+
+[bot]
+# Registration target
+target_keys = 10
+# 5SIM country
+country = "hongkong"
+# 5SIM service
+service = "codebuddy"
+# CodeBuddy.cn base URL
+codebuddy_base = "https://www.codebuddy.cn"
+# OTP wait timeout (seconds)
+otp_timeout = 120
+# Wait between attempts (seconds)
+wait_between = 10
+# Headless browser
+headless = true
+# Debug mode (save screenshots)
+debug = false
+# User enterprise ID
+user_enterprise_id = "personal-edition-user-id"
+
+[bot.router]
+# 9router SQLite database path
+db_path = "~/.9router/db/data.sqlite"
+# Provider name
+provider = "codebuddy-cn"
