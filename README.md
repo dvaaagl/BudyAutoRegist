@@ -69,6 +69,6 @@ service = "codebuddy"
 
 ## License
 
-Contact **@machine_id_bot** on Telegram to get your license key.
+Contact **@machine_id_bot** & **@omopagll** on Telegram to get your license key.
 
-This bot is license-protected. You need a valid license key to use it.
+This bot is license-protected. You need a valid licaense key to use it.
