@@ -7,7 +7,7 @@
  \___\___/|___/|___|___/\___/|___/|___/ |_|
 
 Account Creator
-by Dava
+by dvaa
 ```
 
 ## Features
@@ -35,9 +35,6 @@ playwright install chromium
 # Interactive menu
 python run.py
 
-# Check 5SIM balance
-python run.py balance
-
 # Test all proxies
 python run.py proxy
 
@@ -59,9 +56,6 @@ python run.py settings
 All configuration is in `config.toml`:
 
 ```toml
-[5sim]
-jwt = "..."              # 5SIM API key
-
 [[proxies]]
 label = "LOCAL"
 type = "http"
